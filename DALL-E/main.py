@@ -1,3 +1,5 @@
+#image generation from the text message
+
 import requests
 
 KEY = 'your key from openai'
