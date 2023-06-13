@@ -21,6 +21,6 @@ def generate(message):
         print("Error:", response.text)
 
 
-text = 'Porshe plus Tesla'
+text = 'your text here'
 
 generate(text)
