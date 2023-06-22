@@ -1,7 +1,7 @@
 # ChatGPT
 
 ChatGPT_Website:
-Integration of ChatGPT bot on your website
+Integration of ChatGPT bot on your website using html / css / javascript
 
 
 Chatbot_Telegram folder: 
