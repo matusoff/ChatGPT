@@ -1,8 +1,7 @@
 # ChatGPT
 
 ChatGPT_Website:
-Integration of ChatGPT bot on your website using html / css / javascript
-
+Integration of ChatGPT bot from openai on your website using html / css / javascript
 
 Chatbot_Telegram folder: 
 Integration of openai ChatGPT into Telegram bot with openai API.
