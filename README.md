@@ -13,31 +13,30 @@ Modify the index.html file to include your OpenAI API key where specified.
 Use the provided JavaScript code to handle the interaction between your website and the OpenAI API.
 Deploy your website. The chatbot should now be functional and able to interact with your website visitors.
 
+## Chatbot Telegram Integration
 
-Chatbot Telegram Integration
 This folder contains all you need to integrate OpenAI's ChatGPT into a Telegram bot, using the OpenAI API for communication.
 
-Setup
-Create a New Bot on Telegram
+### Setup
 
-Open the Telegram app and search for BotFather.
-Type /newbot and follow the prompts.
-BotFather will provide you with a token. Securely store this token.
-Configure Your Bot
+#### Create a New Bot on Telegram
 
-Navigate to the Chatbot_Telegram folder.
-Rename .env.example to .env and insert your bot token.
-Install Dependencies
+- Open the Telegram app and search for **BotFather**.
+- Type `/newbot` and follow the prompts.
+- **BotFather** will provide you with a token. Securely store this token.
 
-bash
-Copy code
+#### Configure Your Bot
+
+- Navigate to the `Chatbot_Telegram` folder.
+- Rename `.env.example` to `.env` and insert your bot token.
+
+#### Install Dependencies
+
+```bash
 npm install
-Run Your Bot
 
-bash
-Copy code
-node bot.js
-Your Telegram bot should now be live and able to communicate using ChatGPT.
+
+
 
 3. DALL-E
 The DALL-E folder contains examples and instructions on how to use the OpenAI API for generating images from text inputs. This allows users to create unique images based on descriptions provided to the ChatGPT bot.
