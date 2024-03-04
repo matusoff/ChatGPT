@@ -12,15 +12,33 @@ Obtain an API key from OpenAI. This will be used to authenticate your requests.
 Modify the index.html file to include your OpenAI API key where specified.
 Use the provided JavaScript code to handle the interaction between your website and the OpenAI API.
 Deploy your website. The chatbot should now be functional and able to interact with your website visitors.
-2. Chatbot_Telegram
-This folder contains the necessary instructions and code to integrate ChatGPT into a Telegram bot. This allows users to interact with ChatGPT through the Telegram platform, making it accessible from anywhere at any time.
 
-Setup Instructions:
-Start by creating a new bot in Telegram by searching for the "BotFather", then type /newbot and follow the prompts.
-Once your bot is created, BotFather will provide you with a token. Keep this token secure as it will be used to authenticate your bot with the Telegram API.
-Install the required libraries, such as python-telegram-bot, to interact with the Telegram API.
-Use the provided Python script in the folder to integrate ChatGPT with your Telegram bot. Ensure to replace the placeholder with your OpenAI API key and the Telegram token.
-Launch your bot. It is now ready to chat with users on Telegram, powered by ChatGPT.
+
+Chatbot Telegram Integration
+This folder contains all you need to integrate OpenAI's ChatGPT into a Telegram bot, using the OpenAI API for communication.
+
+Setup
+Create a New Bot on Telegram
+
+Open the Telegram app and search for BotFather.
+Type /newbot and follow the prompts.
+BotFather will provide you with a token. Securely store this token.
+Configure Your Bot
+
+Navigate to the Chatbot_Telegram folder.
+Rename .env.example to .env and insert your bot token.
+Install Dependencies
+
+bash
+Copy code
+npm install
+Run Your Bot
+
+bash
+Copy code
+node bot.js
+Your Telegram bot should now be live and able to communicate using ChatGPT.
+
 3. DALL-E
 The DALL-E folder contains examples and instructions on how to use the OpenAI API for generating images from text inputs. This allows users to create unique images based on descriptions provided to the ChatGPT bot.
 
