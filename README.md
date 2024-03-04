@@ -1,6 +1,6 @@
 ChatGPT Integration Project 
-Overview
 This project aims to demonstrate the versatility of OpenAI's ChatGPT by integrating it into various platforms, including websites, Telegram, and even incorporating DALL-E for image generation based on text inputs. This README file provides a comprehensive guide to help you set up and integrate these functionalities into your own projects. Below you will find detailed instructions for each component of the project.
+This folder contains all you need to integrate OpenAI's ChatGPT into a Telegram bot, using the OpenAI API for communication.
 
 ## ChatGPT Website Integration
 
@@ -12,6 +12,24 @@ Integrate ChatGPT from OpenAI into your website using HTML, CSS, and JavaScript.
 
    ```bash
    git clone https://github.com/yourrepository/ChatGPT.git
+
+
+Navigate to ChatGPT_Website Folder
+
+```bash
+cd ChatGPT_Website
+Install Dependencies
+
+Then, run:
+
+```bash
+npm install
+Run the Web Server
+
+```bash
+
+npm start
+Access the web interface at http://localhost:3000.
 
 
 ## Chatbot Telegram Integration
