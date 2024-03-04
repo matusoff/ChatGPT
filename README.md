@@ -49,3 +49,39 @@ Ensure you have an OpenAI API key. This key is required to authenticate your req
 Setup Instructions:
 Review the example code provided in the folder, which demonstrates how to send a text description to the DALL-E API and receive an image in response.
 Integrate this functionality into your project, allowing users to generate images through either the website or the Telegram bot.
+
+
+# Create Your Meme with OpenAI
+
+This project allows you to create memes by leveraging the OpenAI API. Follow the steps below to get started.
+
+## Prerequisites
+
+- OpenAI API Key: Ensure you have an OpenAI API Key. If you don't have one, you can create it by visiting the [OpenAI API website](https://openai.com/api/).
+- Python installed on your machine.
+
+## Setup
+
+1. **Clone the Repository**
+
+   Start by cloning this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/yourrepository/MEM.git
+   cd meme-generator
+
+# Usage
+# Download an Image
+Download the image you want to use for your meme. Ensure the image is saved in a known directory.
+
+# Set Up Your Environment Variables
+Export your OpenAI API key as an environment variable.
+
+# Run the Script
+Navigate to the folder containing main.py, and run the script by following the prompt. Replace path_to_your_image with the actual path to your downloaded image:
+
+```bash
+python main.py --image path_to_your_image
+```
+Follow the on-screen prompts to input your desired meme text or let the AI suggest meme text based on the image content.
+
