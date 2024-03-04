@@ -40,10 +40,12 @@ This folder contains all you need to integrate OpenAI's ChatGPT into a Telegram 
 
 
 
-## DALL-E
+## DALL-E Image Generation
 The DALL-E folder contains examples and instructions on how to use the OpenAI API for generating images from text inputs. This allows users to create unique images based on descriptions provided to the ChatGPT bot.
 
+## Getting Started
+Ensure you have an OpenAI API key. This key is required to authenticate your requests to the DALL-E API.
+
 Setup Instructions:
-Obtain an API key from OpenAI with access to DALL-E.
 Review the example code provided in the folder, which demonstrates how to send a text description to the DALL-E API and receive an image in response.
 Integrate this functionality into your project, allowing users to generate images through either the website or the Telegram bot.
