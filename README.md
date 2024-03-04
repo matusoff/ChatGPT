@@ -70,14 +70,14 @@ This project allows you to create memes by leveraging the OpenAI API. Follow the
    git clone https://github.com/yourrepository/MEM.git
    cd meme-generator
 
-# Usage
-# Download an Image
+## Usage
+## Download an Image
 Download the image you want to use for your meme. Ensure the image is saved in a known directory.
 
-# Set Up Your Environment Variables
+## Set Up Your Environment Variables
 Export your OpenAI API key as an environment variable.
 
-# Run the Script
+## Run the Script
 Navigate to the folder containing main.py, and run the script by following the prompt. Replace path_to_your_image with the actual path to your downloaded image:
 
 ```bash
