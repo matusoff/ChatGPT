@@ -8,28 +8,17 @@ Integrate ChatGPT from OpenAI into your website using HTML, CSS, and JavaScript.
 
 ### Getting Started
 
-1. **Clone the Repository**
+1. **Clone the Repository and Navigate to ChatGPT_Website Folder**
 
    ```bash
    git clone https://github.com/yourrepository/ChatGPT.git
+   cd ChatGPT/ChatGPT_Website
 
-
-Navigate to ChatGPT_Website Folder
-
-```bash
-cd ChatGPT_Website
-Install Dependencies
-
-Then, run:
-
-```bash
-npm install
 Run the Web Server
 
-```bash
+To serve your website locally, start the development server by executing
 
-npm start
-Access the web interface at http://localhost:3000.
+This format keeps the instructions and their corresponding commands together, making it easy to follow the setup process step by step.
 
 
 ## Chatbot Telegram Integration
