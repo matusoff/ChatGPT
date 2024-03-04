@@ -18,8 +18,6 @@ Run the Web Server
 
 To serve your website locally, start the development server by executing
 
-This format keeps the instructions and their corresponding commands together, making it easy to follow the setup process step by step.
-
 
 ## Chatbot Telegram Integration
 
@@ -40,8 +38,6 @@ This folder contains all you need to integrate OpenAI's ChatGPT into a Telegram 
 
 #### Install Dependencies
 
-```bash
-npm install
 
 
 ## DALL-E
