@@ -24,12 +24,16 @@ To get started with the Resume Builder app, follow these steps:
 ### Setup Instructions
 
 1. Obtain an OpenAI API Key
+   
 To use this application, you'll need an API key from OpenAI.
+
 Follow these steps to obtain one:
+
 Visit OpenAI and sign up or log in.
+
 Navigate to the API section and follow the instructions to generate a new API key.
 
-2. Install Required Python Packages
+3. Install Required Python Packages
    
 ```bash
 pip install -r requirements.txt
@@ -38,9 +42,10 @@ pip install -r requirements.txt
 To process PDF files, Windows users need to set up Poppler. Follow these steps:
 
 Download Poppler for Windows from the Poppler Windows releases page.
+
 Extract the downloaded Poppler zip file.
-Create a new folder named poppler in C:\Program Files (x86)\.
-Copy and paste the extracted Poppler folder into the C:\Program Files (x86)\poppler\.
+Create a new folder named poppler in C:\Program Files (x86).
+Copy and paste the extracted Poppler folder into the C:\Program Files (x86)\poppler.
 Add Poppler to your PATH environment variable:
 Search for "Environment Variables" in Windows search and select "Edit the system environment variables."
 In the System Properties window, click on the "Environment Variables" button.
