@@ -57,8 +57,9 @@ In the System Properties window, click on the "Environment Variables" button.
 
 In the Environment Variables window, under "System variables," find the PATH variable and select it. Click "Edit."
 
-In the Edit Environment Variable window, click "New" and add the path to the Poppler bin directory, which should be something like C:\Program Files (x86)\poppler\
-[Poppler-Version]\Library\bin.
+In the Edit Environment Variable window:
+
+click "New" and add the path to the Poppler bin directory, which should be something like C:\Program Files (x86)\poppler\[Poppler-Version]\Library\bin.
 
 ### Running the Application
 To run the Resume Builder application, execute the following command:
