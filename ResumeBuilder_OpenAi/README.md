@@ -44,14 +44,21 @@ To process PDF files, Windows users need to set up Poppler. Follow these steps:
 Download Poppler for Windows from the Poppler Windows releases page.
 
 Extract the downloaded Poppler zip file.
+
 Create a new folder named poppler in C:\Program Files (x86).
+
 Copy and paste the extracted Poppler folder into the C:\Program Files (x86)\poppler.
+
 Add Poppler to your PATH environment variable:
+
 Search for "Environment Variables" in Windows search and select "Edit the system environment variables."
+
 In the System Properties window, click on the "Environment Variables" button.
+
 In the Environment Variables window, under "System variables," find the PATH variable and select it. Click "Edit."
-In the Edit Environment Variable window, click "New" and add the path to the Poppler bin directory, which should be something like C:\Program Files (x86)\poppler\[Poppler-Version]\Library\bin.
-Click "OK" to close all dialogues.
+
+In the Edit Environment Variable window, click "New" and add the path to the Poppler bin directory, which should be something like C:\Program Files (x86)\poppler\
+[Poppler-Version]\Library\bin.
 
 ### Running the Application
 To run the Resume Builder application, execute the following command:
@@ -62,4 +69,3 @@ streamlit run app.py
 
 After running the command, Streamlit will start the web server, and you should see a URL in your terminal, which you can visit with your web browser to access 
 the application.
-
